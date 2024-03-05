@@ -5,7 +5,7 @@ import argparse
 parser = argparse.ArgumentParser(description='PyTorch Training')
 parser.add_argument('--dataset', default='caltech', type=str, choices=['cityperson', 'caltech'],
                     help='dataset name')
-parser.add_argument('--gpu', default=[2], type=int, nargs='+', help='GPU id to use.')
+parser.add_argument('--gpu', default=[0], type=int, nargs='+', help='GPU id to use.')
 parser.add_argument('--run_number', default='1', type=str, help='run number')
 parser.add_argument('--NNL', action='store_true', default=True, help='NNL')
 parser.add_argument('--neck', default='mulbn', type=str, choices=['no', 'res', 'mulbn'], help='加多bn模块或者残差块')
