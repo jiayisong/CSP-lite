@@ -53,7 +53,7 @@ cityperson
 * torch 1.8.0+cu111
 * torchvision 0.9.0+cu111
 ## Prepare Code
-Download or clone the repository code and modify caltech_root in config_caltech.py and cityperson_root in config_cityperson.py.
+Download or clone the repository code and modify '*caltech_root*' in [config_caltech.py](config_caltech.py#L10) and '*cityperson_root*' in [config_cityperson.py](config_cityperson.py#L11).
 ## Run Code
 # Train
 ```python
