@@ -78,8 +78,9 @@ python3 test.py --dataset caltech --gpu 0 --run_number 1 --NNL --neck mulbn --ne
 Parameters are consistent with training.
 ### Test FPS
 ```python
-python3 test_FPS.py
+python3 test_FPS.py --dataset caltech --gpu 0 --run_number 1 --NNL --neck mulbn --neck_depth 4
 ```
+Parameters are consistent with training.
 ## Running Result
 |  Dataset   |  Scale | Reasonable  | Heavy | Partial |Bare| Small | Medium | Large| All | Time(ms) | Model |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|------|------|------|
@@ -87,3 +88,4 @@ python3 test_FPS.py
 |  Caltech(Cityperson pre-training)   |  480*640   |    3.4 | 9.7 | - |-| 4.6 |  - |-| 46.4  | 6.3    |  [checkpoint](https://drive.google.com/file/d/1AqClnRgJ2CuH1noUM83pq2GQIOn-g_DL/view?usp=sharing) |
 |   Cityperson  | 1024*2048    |  11.0 | 48.8 | 10.3 | 7.3 | 15.4 | 4.6 | 5.2 |  -| 35.7  |  [checkpoint](https://drive.google.com/file/d/1PwQIa_wtJepoKIyZh3KP7r2AhEbKJN6S/view?usp=sharing) |
 |   Cityperson  |  1312*2624   |  10.2 | 46.6 | 8.8 | 6.6 | 13.5 | 2.4 | 5.3 |  -| 50.9   |   [checkpoint](https://drive.google.com/file/d/1PwQIa_wtJepoKIyZh3KP7r2AhEbKJN6S/view?usp=sharing)  |
+The time is for 2080Ti testing.
