@@ -21,6 +21,7 @@ caltech
     ├── '''
 ```
 ### citypersons
+Download gtBbox_cityPersons_trainval.zip and leftImg8bit_trainvaltest.zip from https://www.cityscapes-dataset.com/downloads/
 ```text
 cityperson
 ├── gtBboxCityPersons
