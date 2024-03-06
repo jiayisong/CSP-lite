@@ -2,7 +2,7 @@
 ## Prepare Dataset
 Download the dataset from the official website and organize the file structure in the following form. 
 ### caltech
-https://drive.google.com/file/d/15WftklRDGdWz2-9DojhIfnHh4XAKv0Xv/view?usp=sharing
+Since the data from the official website still need to be transformed, we provide the transformed caltech dataset on https://drive.google.com/file/d/15WftklRDGdWz2-9DojhIfnHh4XAKv0Xv/view?usp=sharing
 ```text
 caltech
 ├── anno_train10x_alignedby_RotatedFilters
