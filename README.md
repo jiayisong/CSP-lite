@@ -103,6 +103,6 @@ If you think our work is useful in your research, please consider citing:
   number={},
   pages={1-11},
   keywords={Pedestrians;Feature extraction;Real-time systems;Training;Task analysis;Fuses;Costs;Anchor-free;pedestrian detection;real-time;trick for convolutional neural networks},
-  doi={10.1109/TETCI.2024.3440193}}
-
+  doi={10.1109/TETCI.2024.3440193}
+}
 ```
