@@ -1,4 +1,5 @@
 # CSP-lite: Real-Time And Efficient Keypoint-Based Pedestrian Detection
+Code implementation of my paper [CSP-lite](https://ieeexplore.ieee.org/abstract/document/10637319).
 ## Prepare Dataset
 Download the dataset from the official website and organize the file structure in the following form. 
 ### caltech
@@ -90,3 +91,18 @@ Parameters are consistent with training.
 |   Cityperson  |  1312*2624   |  10.2 | 46.6 | 8.8 | 6.6 | 13.5 | 2.4 | 5.3 |  -| 50.9   |   [checkpoint](https://drive.google.com/file/d/1PwQIa_wtJepoKIyZh3KP7r2AhEbKJN6S/view?usp=sharing)  |
 
 The time is for 2080Ti testing.
+## Citation
+If you think our work is useful in your research, please consider citing:
+```
+@ARTICLE{10637319,
+  author={Jia, Yisong and Pan, Huihui and Wang, Jue and Sun, Weichao},
+  journal={IEEE Transactions on Emerging Topics in Computational Intelligence}, 
+  title={CSP-Lite: Real-Time and Efficient Keypoint-Based Pedestrian Detection}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-11},
+  keywords={Pedestrians;Feature extraction;Real-time systems;Training;Task analysis;Fuses;Costs;Anchor-free;pedestrian detection;real-time;trick for convolutional neural networks},
+  doi={10.1109/TETCI.2024.3440193}}
+
+```
