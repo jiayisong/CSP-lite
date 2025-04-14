@@ -98,11 +98,10 @@ If you think our work is useful in your research, please consider citing:
   author={Jia, Yisong and Pan, Huihui and Wang, Jue and Sun, Weichao},
   journal={IEEE Transactions on Emerging Topics in Computational Intelligence}, 
   title={CSP-Lite: Real-Time and Efficient Keypoint-Based Pedestrian Detection}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-11},
+  year={2025},
+  volume={9},
+  number={2},
+  pages={1627-1637},
   keywords={Pedestrians;Feature extraction;Real-time systems;Training;Task analysis;Fuses;Costs;Anchor-free;pedestrian detection;real-time;trick for convolutional neural networks},
-  doi={10.1109/TETCI.2024.3440193}
-}
+  doi={10.1109/TETCI.2024.3440193}}
 ```
